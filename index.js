@@ -1,11 +1,11 @@
+#! usr/bin/env node
 import inquirer from "inquirer";
-let randomNumber = Math.floor(Math.random() * 20 + 1);
-// console.log(randomNumber)
+let randomNumber = Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([
     {
         name: "userGuessedNumber",
         type: "number",
-        message: "Please guess a number between 1-20: ",
+        message: "Please guess a number between 1-6: ",
     },
 ]);
 if (answers.userGuessedNumber === randomNumber) {
