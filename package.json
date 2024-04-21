@@ -1,6 +1,6 @@
 {
   "name": "number-guessing-muntazir",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A number guessing game made by using Typescript.",
   "main": "index.js",
   "type": "module",
