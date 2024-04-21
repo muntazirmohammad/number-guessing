@@ -1,7 +1,7 @@
 {
-  "name": "guessing-muntazir",
-  "version": "1.0.0",
-  "description": "",
+  "name": "number-guessing-muntazir",
+  "version": "2.0.0",
+  "description": "A number guessing game made by using Typescript.",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.19"
+    "inquirer": "^9.2.19",
+    "muntazir-number-guess": "^1.0.1"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
